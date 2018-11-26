@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'sw-font';
+  src: url("../fonts/sw.ttf") format("truetype"), url("..fonts/sw.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  position: relative;
+  box-sizing: border-box; }
+  * a::after,
+  * a::before {
+    content: '';
+    display: block;
+    clear: both; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: sw-font;
+  color: white; }
+
+body {
+  background-image: url("../images/starbg.jpg");
+  background-repeat: repeat; }
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: start;
+      align-items: flex-start; }
+
+.logo {
+  font-size: 140px;
+  color: white; }
+  
+  .title {
+    font-size:60px;
+  }
+  form {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start; 
+  }
